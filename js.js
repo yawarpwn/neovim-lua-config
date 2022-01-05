@@ -4,3 +4,13 @@ const foo = () => {
 }
 
 foo()
+
+
+const Componenet = () => {
+  return (
+    <div>
+      <main>
+      </main>
+    </div>
+  )
+}
