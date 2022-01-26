@@ -22,4 +22,5 @@ require "user.autocommands"
 require "user.colorizer"
 require "user.surround"
 require "user.renamer"
+require "user.quickscope"
 

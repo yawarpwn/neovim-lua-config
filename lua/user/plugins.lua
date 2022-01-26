@@ -61,6 +61,7 @@ return packer.startup(function(use)
   use "blackCauldron7/surround.nvim"
   use "norcalli/nvim-colorizer.lua"
   use "filipdutescu/renamer.nvim"
+  use "unblevable/quick-scope"
 
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
