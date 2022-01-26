@@ -23,4 +23,5 @@ require "user.colorizer"
 require "user.surround"
 require "user.renamer"
 require "user.quickscope"
+require "user.hop"
 

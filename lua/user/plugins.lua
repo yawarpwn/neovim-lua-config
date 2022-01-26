@@ -62,6 +62,7 @@ return packer.startup(function(use)
   use "norcalli/nvim-colorizer.lua"
   use "filipdutescu/renamer.nvim"
   use "unblevable/quick-scope"
+  use "phaazon/hop.nvim"
 
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
