@@ -63,6 +63,10 @@ return packer.startup(function(use)
   use "filipdutescu/renamer.nvim"
   use "unblevable/quick-scope"
   use "phaazon/hop.nvim"
+  use {
+    "folke/trouble.nvim",
+    cmd = "TroubleToggle",
+  }
 
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out

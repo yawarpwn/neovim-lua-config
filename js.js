@@ -6,10 +6,11 @@ const foo = () => {
 foo()
 
 
-const Componenet = () => {
+const Componenet = ({main}) => {
   return (
     <div>
       <main>
+        {main}
       </main>
     </div>
   )
