@@ -59,7 +59,7 @@ return packer.startup(function(use)
   use "antoinemadec/FixCursorHold.nvim" -- This is needed to fix lsp doc highlight
   use "folke/which-key.nvim"
   use "blackCauldron7/surround.nvim"
-  use "norcalli/nvim-colorizer.lua"
+  use "br1anchen/nvim-colorizer.lua"
   use "filipdutescu/renamer.nvim"
   use "unblevable/quick-scope"
   use "phaazon/hop.nvim"
@@ -102,8 +102,7 @@ return packer.startup(function(use)
   }
   use "JoosepAlviste/nvim-ts-context-commentstring"
   use 'windwp/nvim-ts-autotag'
-  use 'p00f/nvim-ts-rainbow'
-
+  use {'p00f/nvim-ts-rainbow', commit = 'c6c26c4def0e9cd82f371ba677d6fc9baa0038af'}
   -- Git
   use "lewis6991/gitsigns.nvim"
 
