@@ -24,4 +24,4 @@ require "user.surround"
 require "user.renamer"
 require "user.quickscope"
 require "user.hop"
-
+require "user.illuminate"
