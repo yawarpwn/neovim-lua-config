@@ -1,17 +1,4 @@
-const foo = () => {
-  const title = document.querySelector('#title')
-  console.log(title)
-}
+const data = document.querySelector('#data')
 
-foo()
+const arr = []
 
-
-const Componenet = ({main}) => {
-  return (
-    <div>
-      <main>
-        {main}
-      </main>
-    </div>
-  )
-}

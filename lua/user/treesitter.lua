@@ -4,7 +4,7 @@ if not status_ok then
 end
 
 configs.setup {
-  ensure_installed = {"html", "javascript", "lua", "json","typescript", "graphql"},
+  ensure_installed = {"html", "javascript", "lua", "json","typescript", "graphql", "graphql"},
   sync_install = false, -- install languages synchronously (only applied to `ensure_installed`)
   ignore_install = { "" }, -- List of parsers to ignore installing
   autopairs = {
@@ -20,6 +20,6 @@ configs.setup {
     enable = true,
     enable_autocmd = false,
   },
-  rainbow = {enable = true},
+  rainbow = {enable = true, disable = {"html"}},
   autotag = {enable = true}
 }

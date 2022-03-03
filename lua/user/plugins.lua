@@ -67,11 +67,12 @@ return packer.startup(function(use)
     "folke/trouble.nvim",
     cmd = "TroubleToggle",
   }
-
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
-  --use "lunarvim/darkplus.nvim"
+  use "lunarvim/darkplus.nvim"
   use 'navarasu/onedark.nvim'
+  use 'folke/tokyonight.nvim'
+  use "ellisonleao/gruvbox.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
