@@ -63,10 +63,6 @@ return packer.startup(function(use)
   use "filipdutescu/renamer.nvim"
   use "unblevable/quick-scope"
   use "phaazon/hop.nvim"
-  use {
-    "folke/trouble.nvim",
-    cmd = "TroubleToggle",
-  }
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use "lunarvim/darkplus.nvim"
@@ -91,7 +87,14 @@ return packer.startup(function(use)
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
   use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
   use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+  use {
+    "folke/trouble.nvim",
+    cmd = "TroubleToggle"
+  }
+  -- use 'folke/lsp-colors.nvim'
+
   use "RRethy/vim-illuminate"
+  -- use "github/copilot.vim"
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"

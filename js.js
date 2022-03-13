@@ -1,7 +1,3 @@
-const data = document.querySelector('#data')
+import React from 'react'
 
-const arr = []
-
-const arr.map(n => n * 2)
-
-
+const logo = document.querySelector('logo')
